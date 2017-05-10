@@ -1,0 +1,35 @@
+h2, h3, h4, h5{
+  color: blue;
+  font-size:1.5em;
+}
+th{
+  font-weight: bold;
+  color: green;
+}
+#scoreBoard, th, td, tr{
+  border: 2px blue solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+#teamRoster ul, ul{
+  list-style-type: square;
+}
+
+a:hover{
+  background-color: hotpink;
+  text-decoration: none;
+}
+blockquote {
+  color: yellow;
+  background-color: darkgreen;
+}
+li > img {
+  opacity: 0.2;
+  position: absolute;
+  padding-top: 18px;
+  height: 17%;
+  width: 17%;
+}
+#checkbox-grid {
+  list-style-type: none;
+}
